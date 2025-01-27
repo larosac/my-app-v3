@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-app-v3
+  description: Un fantastico progetto da monitorare.
+  annotations:
+    github.com/project-slug: larosac/my-app-v3
+spec:
+  type: service
+  lifecycle: production
+  owner: team-x
